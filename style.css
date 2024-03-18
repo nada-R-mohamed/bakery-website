@@ -1,0 +1,318 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* start home */
+.home {
+  background-image: url(images/drew-coffman-1872.jpg);
+  height: 100vh;
+  background-size: 100% 100%;
+}
+
+.home-content {
+  font-family: "Alegreya";
+  font-weight: 400;
+  color: white;
+  text-align: center;
+  margin-top: 100px;
+}
+.home-content p {
+  font-size: 25px;
+  line-height: 1.38em;
+}
+.home-content h1 {
+  font-size: 76px;
+  margin: 30px;
+}
+.home-content .button {
+  padding: 20px 30px;
+  font-size: medium;
+  color: white;
+  border-radius: 3px;
+  margin-top: 40px;
+}
+.home-content .button1 {
+  background-color: #8e7754;
+  border-width: 0;
+  margin-right: 10px;
+}
+.home-content .button2 {
+  background-color: transparent;
+  border: 1px solid white;
+}
+
+.nav-logo {
+  width: 10%;
+  margin-top: 20px;
+  display: inline-block;
+  margin-left: 120px;
+}
+
+.nav-logo img {
+  width: 100%;
+}
+
+.nav-links ul {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.nav-links ul li {
+  display: inline-block;
+  padding: 20px;
+  list-style: none;
+}
+
+.nav-links ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+/* end home */
+
+/* start who we are */
+
+.who-we-are {
+  text-align: center;
+  padding: 100px;
+}
+
+.who-we-are-img {
+  display: inline-block;
+  vertical-align: middle;
+  width: 50%;
+}
+.who-we-are-img img {
+  width: 80%;
+}
+.who-we-are-content {
+  color: #686868;
+  display: inline-block;
+  vertical-align: middle;
+  width: 40%;
+  text-align: left;
+}
+.who-we-are-content h2 {
+  font-size: 32px;
+  margin: 40px 0px;
+}
+.who-we-are-content p {
+  margin: 40px 0px;
+  line-height: 1.38em;
+}
+.who-we-are-icons ul li {
+  margin-top: 20px;
+  line-height: 1.38em;
+  list-style: none;
+}
+.img-icon {
+  width: 40px;
+  height: auto;
+  border: #8b8585 solid 1px;
+  border-radius: 50%;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+/* end who we are */
+
+/* start our location */
+
+.our-location {
+  background-color: #f8f8f8;
+  text-align: center;
+  padding: 100px;
+}
+.our-location-content {
+  color: #686868;
+  display: inline-block;
+  vertical-align: middle;
+  width: 40%;
+  text-align: left;
+}
+.our-location-content h2 {
+  font-size: 32px;
+  margin: 40px 0px;
+}
+
+.our-location-content p {
+  margin: 40px 0px;
+  line-height: 1.5em;
+}
+.our-location-img {
+  display: inline-block;
+  vertical-align: middle;
+  width: 50%;
+}
+.our-location-img img {
+  width: 80%;
+}
+/* end our location */
+
+/* start gallery */
+
+.gallery-title {
+  text-align: center;
+  font-family: "Alegreya";
+  color: #303030;
+  line-height: 41px;
+  padding-top: 30px;
+  margin: 50px;
+}
+.gallery-title h3 {
+  font-size: 30px;
+  font-weight: 400;
+}
+.gallery-title p {
+  font-size: 17px;
+  color: #888;
+  margin: 17px auto;
+}
+.gallery-parent {
+  overflow: auto;
+}
+.gallery-meal {
+  width: 27%;
+  float: left;
+  margin: 15px;
+}
+.gallery-child {
+  text-align: center;
+  margin-left: 200px;
+  color: #303030;
+  line-height: 30px;
+  size: 22px;
+  font-family: "Alegreya Sans";
+}
+.gallery-meal img {
+  width: 100%;
+}
+.gallery-child h6 {
+  color: #303030;
+  font-size: 22px;
+  font-family: "Alegreya";
+  margin: 20px;
+}
+/* end gallery */
+
+/* start blog */
+.blog {
+  width: 100%;
+  background-color: #f8f8f8;
+  text-align: center;
+  color: #686868;
+  overflow: auto;
+  margin: 50px 0px;
+  padding: 70px 0px;
+}
+.blog-map {
+  width: 50%;
+  float: right;
+  margin: 40px 0px;
+}
+.blog-content {
+  color: #686868;
+  width: 40%;
+  text-align: left;
+  float: left;
+  margin: 40px 0px;
+  margin-left: 100px;
+}
+.blog-content p {
+  margin: 60px 0px 0px;
+  line-height: 1.5em;
+}
+.blog-icons ul li {
+  margin-top: 20px;
+  line-height: 1.38em;
+  list-style: none;
+}
+.blog-icons .img-icon {
+  background-color: #8e7754;
+}
+/* end blog */
+
+/* start contact */
+
+.contact-parent {
+  background-color: #403d38;
+  overflow: auto;
+}
+.contact-child {
+  margin: auto;
+  width: 90%;
+  padding: 70px;
+}
+
+.contect-content {
+  width: 22%;
+  padding: 20px;
+  float: left;
+  font-weight: 400;
+}
+.contect-content h6 {
+  color: white;
+  font-family: "Alegreya";
+  font-size: 18px;
+}
+.contect-content ul li {
+  font-size: 16px;
+  font-family: "Alegreya Sans";
+  color: #969696;
+  margin-top: 20px;
+  line-height: 1.38em;
+  list-style: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  margin-bottom: 6px;
+  padding-bottom: 7px;
+}
+.contect-content p {
+  font-size: 16px;
+  font-family: "Alegreya Sans";
+  color: #969696;
+  margin-top: 20px;
+  line-height: 1.38em;
+}
+.contect-content img {
+  width: 25px;
+  vertical-align: middle;
+}
+/* end contact */
+
+/* start footer */
+.footer {
+  background-color: #353330;
+  padding: 50px;
+}
+.footer-content {
+  margin: auto;
+  text-align: center;
+  width: 25%;
+}
+.footer-content img {
+  width: 100%;
+}
+.footer-content p {
+  font-family: "Alegreya Sans";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  color: #777;
+  padding: 15px;
+}
+.footer-social {
+  text-align: center;
+}
+.footer-social img {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 5px;
+  background-color: #403d38;
+}
